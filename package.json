@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "cors": "^2.8.6",
+    "dockerode": "^5.0.1",
+    "express": "^5.2.1",
+    "mineflayer": "^4.37.1",
+    "mineflayer-pathfinder": "^2.4.5",
+    "vec3": "^0.2.0"
+  },
+  "name": "mcserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة تحكم السيرفر</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- مكتبة الأيقونات FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <!-- القائمة الجانبية -->
+        <aside class="sidebar">
+            <div class="server-profile">
+                <span class="server-name">batata0187</span>
+                <span class="server-ip-sub">#5Y8axmubeQWMJOB3</span>
+            </div>
+            
+            <ul class="nav-links">
+                <li class="active"><a href="#"><i class="fa-solid fa-server"></i> Server</a></li>
+                <li><a href="#"><i class="fa-solid fa-gears"></i> Options</a></li>
+                <li><a href="#"><i class="fa-solid fa-terminal"></i> Console</a></li>
+                <li><a href="#"><i class="fa-solid fa-file-lines"></i> Log</a></li>
+                <li><a href="#"><i class="fa-solid fa-users"></i> Players</a></li>
+                <li><a href="#"><i class="fa-solid fa-puzzle-piece"></i> Plugins</a></li>
+                <li><a href="#"><i class="fa-solid fa-folder"></i> Files</a></li>
+            </ul>
+        </aside>
+
+        <!-- المحتوى الرئيسي -->
+        <main class="main-content">
+            <!-- شريط العنوان العلوي -->
+            <header class="top-bar">
+                <div class="logo">
+                    <h2><i class="fa-solid fa-cube"></i> MY DASHBOARD</h2>
+                </div>
+                <div class="user-info">
+                    <span>batata0187</span>
+                    <i class="fa-solid fa-circle-user profile-icon"></i>
+                </div>
+            </header>
+
+            <!-- صندوق حالة السيرفر -->
+            <section class="server-status-card">
+                <div class="ip-display">
+                    <h3>batata0187.aternos.me</h3>
+                    <button class="connect-btn"><i class="fa-solid fa-plug"></i> Connect</button>
+                </div>
+
+                <!-- شريط الحالة (متوقف / أوفلاين) -->
+                <div class="status-banner offline">
+                    <i class="fa-solid fa-circle-xmark"></i> Offline
+                </div>
+
+                <!-- زر التشغيل -->
+                <div class="action-area">
+                    <button id="start-btn" class="start-btn">
+                        <i class="fa-solid fa-power-off"></i> Start
+                    </button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
